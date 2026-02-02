@@ -1,0 +1,43 @@
+{
+  "name": "resume-generator",
+  "version": "1.0.0",
+  "description": "Modern resume template generator with React 18 + TypeScript + Ant Design v5",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "resume",
+    "cv",
+    "template",
+    "generator",
+    "react",
+    "typescript",
+    "antd"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@ant-design/icons": "^5.3.1",
+    "antd": "^5.19.1",
+    "dayjs": "^1.11.13",
+    "html2pdf.js": "^0.10.1",
+    "lodash": "^4.17.21",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1",
+    "uuid": "^13.0.0",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.4.10"
+  }
+}
